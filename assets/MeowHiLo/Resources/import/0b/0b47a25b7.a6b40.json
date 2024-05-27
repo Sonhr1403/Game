@@ -1,0 +1,576 @@
+[
+  1,
+  ["1b47a25b7@6c48a"],
+  ["_textureSource"],
+  ["cc.SpriteFrame"],
+  0,
+  [
+    [
+      [
+        {
+          "name": "gaming_skip_normal_button",
+          "rect": { "x": 577, "y": 3, "width": 242, "height": 118 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 242, "height": 118 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "gaming_high_click_button",
+          "rect": { "x": 219, "y": 587, "width": 242, "height": 140 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 242, "height": 140 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "games_catscratches",
+          "rect": { "x": 3, "y": 485, "width": 210, "height": 251 },
+          "offset": { "x": 0, "y": 0.5 },
+          "originalSize": { "width": 210, "height": 252 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "bet_1-2_normal_btn",
+          "rect": { "x": 701, "y": 149, "width": 106, "height": 82 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 106, "height": 82 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "gaming_cashout_normal_button",
+          "rect": { "x": 436, "y": 3, "width": 242, "height": 118 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 242, "height": 118 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "countdown_icon",
+          "rect": { "x": 222, "y": 980, "width": 34, "height": 41 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 34, "height": 41 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "gaming_low_click_button",
+          "rect": { "x": 337, "y": 733, "width": 242, "height": 140 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 242, "height": 140 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "gaming_black_disable_button",
+          "rect": { "x": 467, "y": 587, "width": 242, "height": 140 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 242, "height": 140 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "lose_cardoutline",
+          "rect": { "x": 171, "y": 742, "width": 160, "height": 232 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 160, "height": 232 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "bet_x2_click_btn",
+          "rect": { "x": 813, "y": 149, "width": 106, "height": 82 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 106, "height": 82 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "gaming_black_click_button",
+          "rect": { "x": 483, "y": 733, "width": 242, "height": 140 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 242, "height": 140 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "gaming_low_normal_button",
+          "rect": { "x": 629, "y": 733, "width": 242, "height": 140 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 242, "height": 140 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "bet_x2_hover_btn",
+          "rect": { "x": 932, "y": 149, "width": 114, "height": 82 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 114, "height": 82 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "gaming_low_hover_button",
+          "rect": { "x": 715, "y": 3, "width": 242, "height": 140 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 242, "height": 140 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "countdown_1minuteleft_bg",
+          "rect": { "x": 219, "y": 485, "width": 352, "height": 96 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 352, "height": 96 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "poker_bg",
+          "rect": { "x": 3, "y": 742, "width": 162, "height": 263 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 162, "height": 263 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "gaming_red_normal_button",
+          "rect": { "x": 436, "y": 251, "width": 242, "height": 140 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 242, "height": 140 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "countdown_bg",
+          "rect": { "x": 577, "y": 483, "width": 209, "height": 68 },
+          "offset": { "x": 0, "y": 0.5 },
+          "originalSize": { "width": 209, "height": 69 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "gaming_red_disable_button",
+          "rect": { "x": 715, "y": 557, "width": 242, "height": 140 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 242, "height": 140 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "gaming_high_hover_button",
+          "rect": { "x": 684, "y": 251, "width": 242, "height": 140 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 242, "height": 140 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "gaming_black_hover_button",
+          "rect": { "x": 775, "y": 703, "width": 242, "height": 140 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 242, "height": 140 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "gaming_skip_icon",
+          "rect": { "x": 171, "y": 980, "width": 39, "height": 45 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 39, "height": 45 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "gaming_high_disable_button",
+          "rect": { "x": 775, "y": 849, "width": 242, "height": 140 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 242, "height": 140 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "loading_bg",
+          "rect": { "x": 3, "y": 3, "width": 427, "height": 476 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 427, "height": 476 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "hilo_guideline",
+          "rect": { "x": 792, "y": 397, "width": 210, "height": 108 },
+          "offset": { "x": 0, "y": 1.5 },
+          "originalSize": { "width": 210, "height": 111 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "bet_1-2_hover_btn",
+          "rect": { "x": 932, "y": 269, "width": 114, "height": 82 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 114, "height": 82 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "timer_1minuteleft_bg",
+          "rect": { "x": 436, "y": 397, "width": 220, "height": 80 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 220, "height": 80 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ]
+  ]
+]

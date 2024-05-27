@@ -1,0 +1,387 @@
+[
+  1,
+  [
+    "05LhbT555CupgNu6M1fK8Y",
+    "52gr9tg5tDDqIj92ctue6H@f9941",
+    "44I9FLDz5LjKo7B0q9IpPE@f9941",
+    "2fyB4ep1dKK5ck3EAGIgt1@f9941",
+    "aaTkuIy+JDFKdqdxwoPdZ3@f9941",
+    "5a8CgoXgVLNq7sT3TVvUrs@f9941",
+    "d9r+Lj6H5KwZnhFmFqvU0z@f9941",
+    "f2CJP582xDm4+ALwVJR17E@f9941",
+    "59OeT1IKhMN5IapmcMw4S8@f9941",
+    "aexD2T8MdIvIM9tI5o3N+d@f9941",
+    "e7pp5U5QNKKK8DFWcNWvgm@f9941",
+    "18eOOD1dVOgLDxtG0DALLw@f9941",
+    "a3TwfHCj9Lh7b/Drvy3Hqr@f9941",
+    "fanChPibJKzLINz75MfUmd@f9941"
+  ],
+  ["node", "_spriteFrame", "_defaultClip", "root", "data"],
+  [
+    [
+      "cc.Node",
+      [
+        "_name",
+        "_objFlags",
+        "_active",
+        "_components",
+        "_prefab",
+        "_parent",
+        "_children",
+        "_lpos"
+      ],
+      0,
+      9,
+      4,
+      1,
+      2,
+      5
+    ],
+    [
+      "cc.Label",
+      [
+        "_string",
+        "_actualFontSize",
+        "_fontSize",
+        "_lineHeight",
+        "_isBold",
+        "_overflow",
+        "node",
+        "__prefab",
+        "_color"
+      ],
+      -3,
+      1,
+      4,
+      5
+    ],
+    ["cc.UITransform", ["node", "__prefab", "_contentSize"], 3, 1, 4, 5],
+    [
+      "cc.Sprite",
+      ["_sizeMode", "_isTrimmedMode", "node", "__prefab", "_spriteFrame"],
+      1,
+      1,
+      4,
+      6
+    ],
+    ["cc.Prefab", ["_name"], 2],
+    ["cc.CompPrefabInfo", ["fileId"], 2],
+    [
+      "cc.PrefabInfo",
+      [
+        "fileId",
+        "instance",
+        "targetOverrides",
+        "nestedPrefabInstanceRoots",
+        "root",
+        "asset"
+      ],
+      -1,
+      1,
+      1
+    ],
+    [
+      "cc.Animation",
+      ["node", "__prefab", "_clips", "_defaultClip"],
+      3,
+      1,
+      4,
+      3,
+      6
+    ]
+  ],
+  [
+    [5, 0, 2],
+    [6, 0, 1, 2, 3, 4, 5, 5],
+    [2, 0, 1, 2, 1],
+    [3, 2, 3, 4, 1],
+    [0, 0, 1, 5, 3, 4, 3],
+    [0, 0, 1, 5, 3, 4, 7, 3],
+    [2, 0, 1, 1],
+    [3, 0, 1, 2, 3, 4, 3],
+    [0, 0, 1, 5, 6, 3, 4, 3],
+    [0, 0, 1, 2, 5, 6, 3, 4, 7, 4],
+    [4, 0, 2],
+    [0, 0, 6, 3, 4, 2],
+    [0, 0, 1, 2, 5, 3, 4, 4],
+    [0, 0, 5, 3, 4, 7, 2],
+    [1, 0, 1, 2, 6, 7, 8, 4],
+    [1, 0, 1, 2, 6, 7, 4],
+    [1, 0, 1, 2, 3, 4, 6, 7, 8, 6],
+    [1, 0, 1, 2, 3, 5, 6, 7, 6],
+    [7, 0, 1, 2, 3, 1]
+  ],
+  [
+    [10, "history"],
+    [
+      11,
+      "history",
+      [-4, -5, -6, -7],
+      [
+        [2, -2, [0, "8dD3lgI/9B0af0P2kePSK0"], [5, 129, 100]],
+        [18, -3, [0, "e2KLhCs8ZH1YRpytHO1gM6"], [13], 14]
+      ],
+      [1, "c46/YsCPVOJYA4mWEpNYRx", null, null, null, -1, 0]
+    ],
+    [
+      8,
+      "history_result",
+      512,
+      1,
+      [-9, -10, -11, -12, -13],
+      [[6, -8, [0, "9e+aTCDllEPKBM7PL0YIs6"]]],
+      [1, "d9tfbCRW1Dh63ijigh8T17", null, null, null, 1, 0]
+    ],
+    [
+      9,
+      "result_circle",
+      512,
+      false,
+      1,
+      [-15, -16, -17, -18, -19],
+      [[6, -14, [0, "e2yHSKeT9ASqiFNSYtT4jI"]]],
+      [1, "19c8DQiXJGn4++jvQgyz4z", null, null, null, 1, 0],
+      [1, 66, 0, 0]
+    ],
+    [
+      9,
+      "pattern",
+      512,
+      false,
+      1,
+      [-21, -22, -23, -24],
+      [[6, -20, [0, "16yAhJpRxJ0oXTyn+AmSPv"]]],
+      [1, "e9Gj3MFUVEv6tsmULvYqxC", null, null, null, 1, 0],
+      [1, 8.083, 0, 0]
+    ],
+    [
+      8,
+      "history_max_payout",
+      512,
+      1,
+      [-26, -27, -28],
+      [[6, -25, [0, "f9G5idxsZCn6EvWJ0x0Yhg"]]],
+      [1, "a3ZxcPcXZFp6RqLGlRQklC", null, null, null, 1, 0]
+    ],
+    [
+      4,
+      "cardhistory_normal_bg",
+      512,
+      2,
+      [
+        [2, -29, [0, "ebvMqcdkFEKIoxmp61N+he"], [5, 129, 101]],
+        [3, -30, [0, "2fEamhTo1PQJmpkIVaOV6e"], 0]
+      ],
+      [1, "57UGMHO0VPAK8cn35ArSN1", null, null, null, 1, 0]
+    ],
+    [
+      4,
+      "cardhistory_youloss_bg",
+      512,
+      2,
+      [
+        [2, -31, [0, "c8DonYE0NH3aOT2/kE1gkk"], [5, 129, 100]],
+        [3, -32, [0, "6cSjmbO0xK+Kkg+vGbbbLi"], 1]
+      ],
+      [1, "951HsmdSRO6o73HEU93UyR", null, null, null, 1, 0]
+    ],
+    [
+      5,
+      "string",
+      512,
+      2,
+      [
+        [2, -33, [0, "b4L/jzLBZEP6t/xWpqqqWy"], [5, 25.58, 50.4]],
+        [14, "6", 46, 46, -34, [0, "88LelrkC5K+IKz6AAn/Y4I"], [4, 4278190080]]
+      ],
+      [1, "014Bri55ZH+ZOK0rL6/sfb", null, null, null, 1, 0],
+      [1, 20.15100000000001, 18.135999999999967, 0]
+    ],
+    [
+      5,
+      "odds",
+      512,
+      2,
+      [
+        [2, -35, [0, "c08VdrlElBuoo+B5HSXwGw"], [5, 50.6, 50.4]],
+        [15, "1.99", 26, 26, -36, [0, "e93uWydq5FPpDJxgBhh+vk"]]
+      ],
+      [1, "90MHEj1kNAZqQzSQagMubi", null, null, null, 1, 0],
+      [1, 0, -28.21199999999999, 0]
+    ],
+    [
+      12,
+      "screen",
+      512,
+      false,
+      2,
+      [
+        [2, -37, [0, "34btxZOhVP2o3rq1a/dMOJ"], [5, 129, 100]],
+        [3, -38, [0, "95o/BhdnNDFKkFejaqGVXC"], 2]
+      ],
+      [1, "46gGebxN1GxLikq3b5PWNg", null, null, null, 1, 0]
+    ],
+    [
+      4,
+      "cardhistory_maxpayout_bg",
+      512,
+      5,
+      [
+        [2, -39, [0, "2dHK6rouBEmIPX2aQTtfqn"], [5, 129, 100]],
+        [3, -40, [0, "c6cI++evhMf50OBv9lV23b"], 3]
+      ],
+      [1, "c8KIuQNqlBlpfpgqov3JzC", null, null, null, 1, 0]
+    ],
+    [
+      5,
+      "max_payout",
+      512,
+      5,
+      [
+        [2, -41, [0, "fbi3WExmNMHZiosZDyD+uQ"], [5, 105.86, 37.8]],
+        [
+          16,
+          "99,999K",
+          28,
+          28,
+          30,
+          true,
+          -42,
+          [0, "faME4q44VAXrNwFTFPDtQN"],
+          [4, 4282902271]
+        ]
+      ],
+      [1, "97cUG/649PTbxzWQRvyiKe", null, null, null, 1, 0],
+      [1, 0, -13.091000000000001, 0]
+    ],
+    [
+      13,
+      "label_max_win",
+      5,
+      [
+        [2, -43, [0, "83a7GckNZBaah3stwlbxuA"], [5, 120, 50]],
+        [17, "MAX WIN", 21, 20, 24, 2, -44, [0, "448rmSTw1JKoMZgDco0vO4"]]
+      ],
+      [1, "22jHLUM/9Ga4f2tSG3Eh69", null, null, null, 1, 0],
+      [1, -0.935, 17.195, 0]
+    ],
+    [
+      4,
+      "Black",
+      512,
+      3,
+      [
+        [2, -45, [0, "65/srfE1ZOupXr94xuUGN8"], [5, 50, 50]],
+        [3, -46, [0, "75tWXAyGxOaZVVzmsEHjq5"], 4]
+      ],
+      [1, "d2aASoQtNCxaaOdeDDbnXC", null, null, null, 1, 0]
+    ],
+    [
+      4,
+      "Hi",
+      512,
+      3,
+      [
+        [2, -47, [0, "09jQCnXwFCso/dW3hHkK3E"], [5, 48, 48]],
+        [3, -48, [0, "eddeHGaXhBdaMI/o22GJCz"], 5]
+      ],
+      [1, "0byApiJtFI+LzPvddw3uiR", null, null, null, 1, 0]
+    ],
+    [
+      4,
+      "Lo",
+      512,
+      3,
+      [
+        [2, -49, [0, "5dnF0b4hlJiLAEWUUE62i2"], [5, 48, 48]],
+        [3, -50, [0, "4c36Za2ERH6p4v9FAVOBZ1"], 6]
+      ],
+      [1, "dd9R2w7shOBqL5szThd/Lh", null, null, null, 1, 0]
+    ],
+    [
+      4,
+      "Red",
+      512,
+      3,
+      [
+        [2, -51, [0, "a5gO8JZWJMyZYLbeNKBwM5"], [5, 48, 48]],
+        [3, -52, [0, "d9M05K/4dA5ZL4gExFG43T"], 7]
+      ],
+      [1, "c3LtshZJZNja1dGfIryir+", null, null, null, 1, 0]
+    ],
+    [
+      4,
+      "Skip",
+      512,
+      3,
+      [
+        [2, -53, [0, "a0+PKEYfNEe4fArF43R59z"], [5, 48, 48]],
+        [3, -54, [0, "7ahV0exv5Fb4/DN3kZ7aYs"], 8]
+      ],
+      [1, "a5+9nPI2VLnbEwpBXFeEQv", null, null, null, 1, 0]
+    ],
+    [
+      5,
+      "C",
+      512,
+      4,
+      [
+        [2, -55, [0, "38dOdOg+NOBrde/sAAqEUM"], [5, 38, 40]],
+        [7, 2, false, -56, [0, "caNlpcJ6ZEh6aZvcDrAdK3"], 9]
+      ],
+      [1, "a2Q8qtFpVEUp/MKcmXrGBX", null, null, null, 1, 0],
+      [1, -28, 18, 0]
+    ],
+    [
+      5,
+      "D",
+      512,
+      4,
+      [
+        [2, -57, [0, "0954UcA25BN5w/Uy2mRPl5"], [5, 34, 40]],
+        [7, 2, false, -58, [0, "43YMy3DthOPJtYYVoDaBHP"], 10]
+      ],
+      [1, "bdc+0vX6JCZLTbXihCEFLn", null, null, null, 1, 0],
+      [1, -28, 18, 0]
+    ],
+    [
+      5,
+      "H",
+      512,
+      4,
+      [
+        [2, -59, [0, "8aNrHQVpxLYpt0QrdTN61Z"], [5, 42, 39]],
+        [7, 2, false, -60, [0, "0eaPwy591CGZMdHHr0IKb6"], 11]
+      ],
+      [1, "81dwoiVkBNMKY2qJd+bDB1", null, null, null, 1, 0],
+      [1, -28, 18, 0]
+    ],
+    [
+      5,
+      "S",
+      512,
+      4,
+      [
+        [2, -61, [0, "3cQPCzJUxAJL8IzKM1xkST"], [5, 39, 39]],
+        [7, 2, false, -62, [0, "8fXe6TvQ1IpZUR8b5kUFC7"], 12]
+      ],
+      [1, "c3u23Q4dNHBpWAlE+7ffXr", null, null, null, 1, 0],
+      [1, -28, 18, 0]
+    ]
+  ],
+  0,
+  [
+    0, 3, 1, 0, 0, 1, 0, 0, 1, 0, -1, 2, 0, -2, 5, 0, -3, 3, 0, -4, 4, 0, 0, 2,
+    0, -1, 6, 0, -2, 7, 0, -3, 8, 0, -4, 9, 0, -5, 10, 0, 0, 3, 0, -1, 14, 0,
+    -2, 15, 0, -3, 16, 0, -4, 17, 0, -5, 18, 0, 0, 4, 0, -1, 19, 0, -2, 20, 0,
+    -3, 21, 0, -4, 22, 0, 0, 5, 0, -1, 11, 0, -2, 12, 0, -3, 13, 0, 0, 6, 0, 0,
+    6, 0, 0, 7, 0, 0, 7, 0, 0, 8, 0, 0, 8, 0, 0, 9, 0, 0, 9, 0, 0, 10, 0, 0, 10,
+    0, 0, 11, 0, 0, 11, 0, 0, 12, 0, 0, 12, 0, 0, 13, 0, 0, 13, 0, 0, 14, 0, 0,
+    14, 0, 0, 15, 0, 0, 15, 0, 0, 16, 0, 0, 16, 0, 0, 17, 0, 0, 17, 0, 0, 18, 0,
+    0, 18, 0, 0, 19, 0, 0, 19, 0, 0, 20, 0, 0, 20, 0, 0, 21, 0, 0, 21, 0, 0, 22,
+    0, 0, 22, 0, 4, 1, 62
+  ],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -1, 2],
+  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 0, 0]
+]

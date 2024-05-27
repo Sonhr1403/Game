@@ -1,0 +1,93 @@
+[
+  1,
+  ["180a45fcf@6c48a"],
+  ["_textureSource"],
+  ["cc.SpriteFrame"],
+  0,
+  [
+    [
+      [
+        {
+          "name": "btn_list_hover",
+          "rect": { "x": 3, "y": 173, "width": 666, "height": 81 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 666, "height": 81 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "btn_list_perssed",
+          "rect": { "x": 3, "y": 260, "width": 666, "height": 81 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 666, "height": 81 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "btn_list_normal",
+          "rect": { "x": 3, "y": 347, "width": 666, "height": 81 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 666, "height": 81 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "btn_list_normalA",
+          "rect": { "x": 3, "y": 434, "width": 666, "height": 81 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 666, "height": 81 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ]
+  ]
+]

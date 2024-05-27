@@ -1,0 +1,198 @@
+[
+  1,
+  ["1e72bf381@6c48a"],
+  ["_textureSource"],
+  ["cc.SpriteFrame"],
+  0,
+  [
+    [
+      [
+        {
+          "name": "vouchers_bg",
+          "rect": { "x": 137, "y": 3, "width": 696, "height": 128 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 696, "height": 128 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "bet_totalamount_btn",
+          "rect": { "x": 271, "y": 3, "width": 480, "height": 104 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 480, "height": 104 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "confirm_btnlight-03",
+          "rect": { "x": 3, "y": 759, "width": 231, "height": 125 },
+          "offset": { "x": -0.5, "y": 0.5 },
+          "originalSize": { "width": 236, "height": 130 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "bet_voucher_btn",
+          "rect": { "x": 240, "y": 705, "width": 66, "height": 66 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 66, "height": 66 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "vouchers_divider",
+          "rect": { "x": 173, "y": 705, "width": 2, "height": 30 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 2, "height": 30 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "longpress_bg",
+          "rect": { "x": 312, "y": 489, "width": 404, "height": 60 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 404, "height": 60 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "bet_bg",
+          "rect": { "x": 3, "y": 3, "width": 750, "height": 128 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 750, "height": 128 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "vouchers_gift_icon",
+          "rect": { "x": 137, "y": 705, "width": 30, "height": 30 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 30, "height": 30 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "bet_money_btn",
+          "rect": { "x": 240, "y": 777, "width": 66, "height": 66 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 66, "height": 66 },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ]
+  ]
+]

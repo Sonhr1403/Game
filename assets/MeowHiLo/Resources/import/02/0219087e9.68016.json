@@ -1,0 +1,1143 @@
+[
+  1,
+  ["1219087e9@6c48a"],
+  ["_textureSource"],
+  ["cc.SpriteFrame"],
+  0,
+  [
+    [
+      [
+        {
+          "name": "D_13",
+          "rect": { "x": 3, "y": 3, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "D_08",
+          "rect": { "x": 125, "y": 3, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "C_06",
+          "rect": { "x": 247, "y": 3, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "H_10",
+          "rect": { "x": 369, "y": 3, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "C_08",
+          "rect": { "x": 491, "y": 3, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "D_09",
+          "rect": { "x": 613, "y": 3, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "S_12",
+          "rect": { "x": 3, "y": 89, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "S_08",
+          "rect": { "x": 125, "y": 89, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "C_12",
+          "rect": { "x": 247, "y": 89, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "D_05",
+          "rect": { "x": 369, "y": 89, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "H_09",
+          "rect": { "x": 491, "y": 89, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "D_07",
+          "rect": { "x": 613, "y": 89, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "D_04",
+          "rect": { "x": 3, "y": 175, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "D_06",
+          "rect": { "x": 125, "y": 175, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "D_02",
+          "rect": { "x": 247, "y": 175, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "C_09",
+          "rect": { "x": 369, "y": 175, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "S_02",
+          "rect": { "x": 491, "y": 175, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "S_10",
+          "rect": { "x": 613, "y": 175, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "H_06",
+          "rect": { "x": 3, "y": 261, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "H_04",
+          "rect": { "x": 125, "y": 261, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "C_13",
+          "rect": { "x": 247, "y": 261, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "C_11",
+          "rect": { "x": 369, "y": 261, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "H_07",
+          "rect": { "x": 491, "y": 261, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "H_05",
+          "rect": { "x": 613, "y": 261, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "C_07",
+          "rect": { "x": 3, "y": 347, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "H_13",
+          "rect": { "x": 125, "y": 347, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "D_11",
+          "rect": { "x": 247, "y": 347, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "H_03",
+          "rect": { "x": 369, "y": 347, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "H_02",
+          "rect": { "x": 491, "y": 347, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "S_04",
+          "rect": { "x": 613, "y": 347, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "D_01",
+          "rect": { "x": 3, "y": 433, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "D_12",
+          "rect": { "x": 125, "y": 433, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "S_11",
+          "rect": { "x": 247, "y": 433, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "icon_cardLine",
+          "rect": { "x": 613, "y": 691, "width": 84, "height": 120 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 84, "height": 120 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "D_10",
+          "rect": { "x": 369, "y": 433, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "H_11",
+          "rect": { "x": 491, "y": 433, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "S_09",
+          "rect": { "x": 613, "y": 433, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "D_03",
+          "rect": { "x": 3, "y": 519, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "S_07",
+          "rect": { "x": 125, "y": 519, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "S_03",
+          "rect": { "x": 247, "y": 519, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "C_10",
+          "rect": { "x": 369, "y": 519, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "H_12",
+          "rect": { "x": 491, "y": 519, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "S_05",
+          "rect": { "x": 613, "y": 519, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "C_03",
+          "rect": { "x": 3, "y": 605, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "S_13",
+          "rect": { "x": 125, "y": 605, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "C_01",
+          "rect": { "x": 247, "y": 605, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "H_01",
+          "rect": { "x": 369, "y": 605, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "H_08",
+          "rect": { "x": 491, "y": 605, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "S_06",
+          "rect": { "x": 613, "y": 605, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "card_back",
+          "rect": { "x": 3, "y": 691, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "C_02",
+          "rect": { "x": 125, "y": 691, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "C_05",
+          "rect": { "x": 247, "y": 691, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "S_01",
+          "rect": { "x": 369, "y": 691, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "C_04",
+          "rect": { "x": 491, "y": 691, "width": 80, "height": 116 },
+          "offset": { "x": 0, "y": 0 },
+          "originalSize": { "width": 80, "height": 116 },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": { "x": 0.5, "y": 0.5 },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ]
+  ]
+]
