@@ -6,8 +6,6 @@ export default class GG extends cc.Component {
     onLoad(): void {
         BGUI.BundleManager.instance.loadBundleFromLocal("Lobby", null);
         BGUI.BundleManager.instance.loadBundleFromLocal("Chat", null);
-        // BGUI.BundleManager.instance.loadBundleFromLocal("MiniLongHo", null);
-        // BGUI.BundleManager.instance.loadBundleFromLocal("MiniBauCua", null);
     }
 
     onClicked() {
