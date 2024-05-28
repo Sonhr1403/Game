@@ -13,8 +13,8 @@ export class LobbyConst {
     // public static readonly CURRENT_PORT = LobbyConst.GAME_MODE ?  BGUI.GameConfigZ.configFirstGame['portAPI'] : ":8081/api?app_id=";
 
     ////server 7
-    public static readonly CURRENT_DOMAIN = LobbyConst.GAME_MODE  ? BGUI.GameConfigZ.configFirstGame['domainAPI'] : "https://api-7kef7e.wiwatech.com";
-    public static readonly CURRENT_PORT = LobbyConst.GAME_MODE ?  BGUI.GameConfigZ.configFirstGame['portAPI'] : ":443/api?app_id=";
+    public static readonly CURRENT_DOMAIN = LobbyConst.GAME_MODE  ? BGUI.GameConfigZ.configFirstGame['domainAPI'] : "https://157.66.218.23";
+    public static readonly CURRENT_PORT = LobbyConst.GAME_MODE ?  BGUI.GameConfigZ.configFirstGame['portAPI'] : ":/api?app_id=";
 
 
     public static CHECK_GET_API_FIRST_GAME = false;

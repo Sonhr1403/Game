@@ -12,7 +12,7 @@
   "height": 72,
   "platformSettings": {},
   "subMetas": {
-    "Layer 18": {
+    "timer_bg": {
       "ver": "1.0.6",
       "uuid": "e7368a60-e10f-417a-a275-1952eb7011ea",
       "importer": "sprite-frame",

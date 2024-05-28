@@ -4,7 +4,6 @@ import Common from "./Script.Common";
 import { Connector } from "./Script.Connector";
 import FootBar from "./Script.FootBar";
 import HeadBar from "./Script.HeadBar";
-import SoundManager, { SLOT_SOUND_TYPE } from "./Script.Sound";
 import Noti from "./Script.Noti";
 
 const { ccclass, property } = cc._decorator;
@@ -78,25 +77,6 @@ export default class Controller extends cc.Component {
     this.isAutoSpinning = bool;
   }
 
-  private betOrdi: number = 3;
-
-  public increaseBetOrdi() {
-    this.betOrdi += 1;
-  }
-
-  public decreaseBetOrdi() {
-    this.betOrdi -= 1;
-  }
-
-  public getBetOrdi() {
-    return this.betOrdi;
-  }
-
-  public setBetOrdi(num: number) {
-    this.betOrdi = num;
-  }
-
-  private listBet: Array<number> = [10000, 20000, 30000, 50000, 100000];
 
   public isForceStop: boolean = false;
 
@@ -108,37 +88,37 @@ export default class Controller extends cc.Component {
     this.isMobile = cc.sys.isMobile;
 
     Connector.instance.addCmdListener(
-      Cmd.Cmd.CMD_SLOT_LOGIN,
+      Cmd.Cmd.CMD_LOGIN,
       this.responseLogin,
       this
     );
 
     Connector.instance.addCmdListener(
-      Cmd.Cmd.CMD_SLOT_GAME_INFO,
+      Cmd.Cmd.CMD_GAME_INFO,
       this.responseReceiveSubscribeGame,
       this
     );
 
     Connector.instance.addCmdListener(
-      Cmd.Cmd.CMD_SLOT_ROUND_RESULT,
+      Cmd.Cmd.CMD_ROUND_RESULT,
       this.responseReceiveRoundResult,
       this
     );
 
     Connector.instance.addCmdListener(
-      Cmd.Cmd.CMD_SLOT_BET_FAILED,
+      Cmd.Cmd.CMD_BET_FAILED,
       this.responseReceiveBetFailed,
       this
     );
 
     Connector.instance.addCmdListener(
-      Cmd.Cmd.CMD_SLOT_FREE_GAME_RESULT,
+      Cmd.Cmd.CMD_FREE_GAME_RESULT,
       this.responseFreeGame,
       this
     );
 
     Connector.instance.addCmdListener(
-      Cmd.Cmd.CMD_SLOT_OPEN_MINIGAME,
+      Cmd.Cmd.CMD_OPEN_MINIGAME,
       this.responseMiniGame,
       this
     );
@@ -151,32 +131,32 @@ export default class Controller extends cc.Component {
 
     Connector.instance.removeCmdListener(
       this,
-      Cmd.Cmd.CMD_SLOT_LOGIN
+      Cmd.Cmd.CMD_LOGIN
     );
 
     Connector.instance.removeCmdListener(
       this,
-      Cmd.Cmd.CMD_SLOT_GAME_INFO
+      Cmd.Cmd.CMD_GAME_INFO
     );
 
     Connector.instance.removeCmdListener(
       this,
-      Cmd.Cmd.CMD_SLOT_ROUND_RESULT
+      Cmd.Cmd.CMD_ROUND_RESULT
     );
 
     Connector.instance.removeCmdListener(
       this,
-      Cmd.Cmd.CMD_SLOT_BET_FAILED
+      Cmd.Cmd.CMD_BET_FAILED
     );
 
     Connector.instance.removeCmdListener(
       this,
-      Cmd.Cmd.CMD_SLOT_FREE_GAME_RESULT
+      Cmd.Cmd.CMD_FREE_GAME_RESULT
     );
 
     Connector.instance.removeCmdListener(
       this,
-      Cmd.Cmd.CMD_SLOT_OPEN_MINIGAME
+      Cmd.Cmd.CMD_OPEN_MINIGAME
     );
 
     cc.director.getScheduler().unscheduleUpdate(this);
@@ -203,7 +183,7 @@ export default class Controller extends cc.Component {
   ////////////////////////////////////////////////////////////////////Init Start
   private initMusic() {
     // localStorage.setItem("musicStatus", "true");
-    SoundManager.instance.playSlotMusic(0);
+    // SoundManager.instance.playMusic(0);
   }
 
   private initSetting() {
@@ -256,10 +236,17 @@ export default class Controller extends cc.Component {
 
   //////////////////////////////////////////////////////////////////////////Button Start
 
-  public setBtnInteractive(bool: boolean) {
-    FootBar.instance.setBtnInteractive(bool);
-    HeadBar.instance.setMenuInteractive(bool);
-  }
+  private onClickSkip(){}
+
+  private onClickCashOut(){}
+
+  private onClickRed(){}
+
+  private onClickBlack(){}
+
+  private onClickHigh(){}
+  
+  private onClickLow(){}
 
   /////////////////////////////////////////////////////////////////////////////Button End
 
@@ -284,7 +271,7 @@ export default class Controller extends cc.Component {
   }
 
   private responseLogin(cmdId: any, data: Uint8Array) {
-    let res = new Cmd.SlotReceiveLogin();
+    let res = new Cmd.ReceiveLogin();
     res.unpackData(data);
     this.checkRes("responseLogin", cmdId, res);
     this.showError(res);
@@ -292,7 +279,7 @@ export default class Controller extends cc.Component {
     let err = res.getError();
     switch (err) {
       case 0:
-        Cmd.Send.sendSlotJoinGame(this.getTotalBet());
+        Cmd.Send.sendJoinGame(FootBar.instance.getTotalStake());
         break;
 
       default:
@@ -303,7 +290,7 @@ export default class Controller extends cc.Component {
 
   //   // 5002
   protected responseReceiveSubscribeGame(cmdId: any, data: Uint8Array) {
-    let res = new Cmd.SlotReceiveGameInfo();
+    let res = new Cmd.ReceiveGameInfo();
     res.unpackData(data);
     this.checkRes("responseReceiveSubscribeGame", cmdId, res);
     this.showError(res);
@@ -324,10 +311,10 @@ export default class Controller extends cc.Component {
   //   // 5004
   public localData: Cmd.ImpData = null;
   public localMini: Cmd.ImpMini = null;
-  public localRes5004: Cmd.SlotReceiveRoundResult = null;
+  public localRes5004: Cmd.ReceiveRoundResult = null;
 
   protected responseReceiveRoundResult(cmdId: any, data: Uint8Array) {
-    let res = new Cmd.SlotReceiveRoundResult();
+    let res = new Cmd.ReceiveRoundResult();
     res.unpackData(data);
     this.checkRes("responseReceiveRoundResult", cmdId, res);
     this.showError(res);
@@ -344,7 +331,7 @@ export default class Controller extends cc.Component {
 
   //5005
   protected responseReceiveBetFailed(cmdId: any, data: Uint8Array) {
-    let res = new Cmd.SlotReceiveBetFailed();
+    let res = new Cmd.ReceiveBetFailed();
     res.unpackData(data);
     this.checkRes("responseReceiveBetFailed", cmdId, res);
     this.showError(res);
@@ -375,7 +362,7 @@ export default class Controller extends cc.Component {
 
   //5008
   private responseFreeGame(cmdId: any, data: Uint8Array) {
-    let res = new Cmd.SlotReceiveFreeGame();
+    let res = new Cmd.ReceiveFreeGame();
     res.unpackData(data);
     this.checkRes("responseFreeGame", cmdId, res);
     this.showError(res);
@@ -400,7 +387,7 @@ export default class Controller extends cc.Component {
 
   //5010
   private responseMiniGame(cmdId: any, data: Uint8Array) {
-    let res = new Cmd.SlotReceiveMiniGame();
+    let res = new Cmd.ReceiveMiniGame();
     res.unpackData(data);
     this.checkRes("responseMiniGame", cmdId, res);
     this.showError(res);
@@ -425,12 +412,9 @@ export default class Controller extends cc.Component {
   /////////////////////////////////////////////////////////////////////Response End
 
   ///////////////////////////////////////////////////////////// other function
-  public getTotalBet() {
-    return this.listBet[this.betOrdi];
-  }
 
   public sendBet() {
-    Cmd.Send.sendSlotBet(this.getTotalBet());
+    Cmd.Send.sendBet(FootBar.instance.getTotalStake());
   }
 
   public sendFreeGame() {
@@ -439,19 +423,6 @@ export default class Controller extends cc.Component {
 
   public sendMiniGame() {
     Cmd.Send.sendStartMiniGame();
-  }
-
-  public checkAutoSpin() {
-    if (this.isAutoSpinning) {
-      if (FootBar.instance.getLblAutoSpin() > 0) {
-        FootBar.instance.decLblAutoSpin();
-      } else {
-        FootBar.instance.onClickStopAutoSpin();
-        this.setBtnInteractive(true);
-      }
-    } else {
-      this.setBtnInteractive(true);
-    }
   }
 
   public scheduleForLbl(

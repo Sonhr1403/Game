@@ -39,8 +39,8 @@ export enum SLOT_SOUND_TYPE {
 }
 
 @ccclass
-export default class MeowHiLoSoundManager extends cc.Component {
-  public static instance: MeowHiLoSoundManager = null;
+export default class SoundManager extends cc.Component {
+  public static instance: SoundManager = null;
   @property(cc.AudioClip)
   public mainBGM: cc.AudioClip[] = [];
 
@@ -51,10 +51,10 @@ export default class MeowHiLoSoundManager extends cc.Component {
   private _fxId: number = -1;
   private _volume: number = 1;
 
-  private musicStatus: boolean = true;
+  public soundStatus: boolean = true;
 
   onLoad() {
-    MeowHiLoSoundManager.instance = this;
+    SoundManager.instance = this;
   }
 
   onDestroy() {}
@@ -74,7 +74,7 @@ export default class MeowHiLoSoundManager extends cc.Component {
 
   public playType(type: number) {
     let audioClip = this.listAuds[type];
-    if (audioClip && this.musicStatus) {
+    if (audioClip && this.soundStatus) {
       this.playActionMusic(audioClip);
     }
   }
@@ -86,7 +86,7 @@ export default class MeowHiLoSoundManager extends cc.Component {
   public playSlotMusic(id: number) {
     cc.audioEngine.stop(this._audioId);
     let audioClip = this.mainBGM[id];
-    if (audioClip && this.musicStatus) {
+    if (audioClip && this.soundStatus) {
       this._audioId = cc.audioEngine.play(audioClip, true, this._volume);
     }
   }
@@ -94,7 +94,7 @@ export default class MeowHiLoSoundManager extends cc.Component {
   public playLoop(id: number) {
     cc.audioEngine.stop(this._fxId);
     let audioClip = this.listAuds[id];
-    if (audioClip && this.musicStatus) {
+    if (audioClip && this.soundStatus) {
       this._fxId = cc.audioEngine.play(audioClip, true, this._volume);
     }
   }
@@ -115,12 +115,12 @@ export default class MeowHiLoSoundManager extends cc.Component {
     cc.audioEngine.resume(this._audioId);
   }
 
-  public setMusicStatus(status: boolean) {
-    this.musicStatus = status;
+  public setsoundStatus(status: boolean) {
+    this.soundStatus = status;
   }
 
-  public getMusicStatus() {
-    return this.musicStatus;
+  public getsoundStatus() {
+    return this.soundStatus;
   }
 
   public stopAll() {

@@ -70,20 +70,20 @@ export namespace Cmd {
 
   /////////////////////////////////
   export class Cmd {
-    static CMD__LOGIN = 1;
-    static CMD__LOGOUT = 2;
-    static CMD__DISCONNECTED = 37;
-    static CMD__JOIN_ROOM = 5001;
-    static CMD__GAME_INFO = 5002;
-    static CMD__JACKPOT_INFO = 5003;
-    static CMD__ROUND_RESULT = 5004;
-    static CMD__BET_FAILED = 5005;
-    static CMD__OPEN_JACKPOT = 5006;
-    static CMD__SELECT_FREE_GAME = 5007;
-    static CMD__FREE_GAME_RESULT = 5008;
-    static CMD__START_MINIGAME = 5011;
-    static CMD__OPEN_MINIGAME = 5010;
-    static CMD__KICK_OUT = 5014;
+    static CMD_LOGIN = 1;
+    static CMD_LOGOUT = 2;
+    static CMD_DISCONNECTED = 37;
+    static CMD_JOIN_ROOM = 5001;
+    static CMD_GAME_INFO = 5002;
+    static CMD_JACKPOT_INFO = 5003;
+    static CMD_ROUND_RESULT = 5004;
+    static CMD_BET_FAILED = 5005;
+    static CMD_OPEN_JACKPOT = 5006;
+    static CMD_SELECT_FREE_GAME = 5007;
+    static CMD_FREE_GAME_RESULT = 5008;
+    static CMD_START_MINIGAME = 5011;
+    static CMD_OPEN_MINIGAME = 5010;
+    static CMD_KICK_OUT = 5014;
     // static CMD__EXITGAME = ; ???
   }
 
