@@ -1,3 +1,5 @@
+import Controller from "./Script.Controller";
+
 const { ccclass, property } = cc._decorator;
 
 @ccclass
@@ -13,55 +15,55 @@ export default class FootBar extends cc.Component {
   @property(cc.Node)
   private light: cc.Node = null;
 
+  @property(cc.Node)
+  private popUp: cc.Node = null;
+
+  @property(cc.Node)
+  private arrow: cc.Node = null;
+
   ///////////////////////////////////////////////////
+
+  private popOn: boolean = true;
 
   onLoad() {
     FootBar.instance = this;
+
+    this.popupGuide(true);
+    this.schedule(this.runArrow, 0.32,cc.macro.REPEAT_FOREVER);
+    this.startLight(true);
   }
 
-  private betOrdi: number = 3;
+  private stake: number = 1;
 
-  private increaseStakeOrdi() {
-    this.betOrdi += 1;
-  }
-
-  private decreaseStakeOrdi() {
-    this.betOrdi -= 1;
-  }
-
-  private listBet: Array<number> = [10000, 20000, 30000, 50000, 100000];
-
-  public getTotalStake() {
-    return this.listBet[this.betOrdi];
+  public getStake() {
+    return this.stake;
   }
 
   private onClickIncStake() {
-    this.increaseStakeOrdi();
+    this.stake = this.stake * 2;
     this.updateBet();
+    this.stopPopUp();
   }
 
   private onClickDecStake() {
-    this.decreaseStakeOrdi();
+    this.stake = Math.floor(this.stake / 2);
     this.updateBet();
+    this.stopPopUp();
   }
 
   public updateBet() {
-    switch (this.betOrdi) {
-      case 0:
-        this.btnStake[0].interactable = false;
-        this.btnStake[1].interactable = true;
-        break;
-
-      case 4:
-        this.btnStake[0].interactable = true;
-        this.btnStake[1].interactable = false;
-        break;
-
-      default:
-        this.btnStake[0].interactable = true;
-        this.btnStake[1].interactable = true;
-        break;
+    if (this.stake > 1 && this.stake < 300) {
+      this.setInteractable(0, true);
+      this.setInteractable(1, true);
+    } else if (this.stake === 1) {
+      this.setInteractable(0, false);
+      this.setInteractable(1, true);
+    } else if (this.stake >= 300) {
+      this.stake = 300;
+      this.setInteractable(0, true);
+      this.setInteractable(1, false);
     }
+
     this.updateStake();
 
     // if (num !== MoneyTrain2Controller.instance.getLocalBetAmount()) {
@@ -69,13 +71,23 @@ export default class FootBar extends cc.Component {
     // }
   }
 
+  private setInteractable(num: number, interactable: boolean){
+    this.btnStake[num].interactable = interactable;
+    if (interactable) {
+      this.btnStake[num].node.children[0].children[0].opacity = 255;
+    } else {
+      this.btnStake[num].node.children[0].children[0].opacity = 140;
+    }
+  }
+
   private updateStake() {
-    this.stakeNum.string = this.listBet[this.betOrdi].toString();
+    this.stakeNum.string = this.stake.toString();
   }
 
   public startLight(start: boolean) {
     if (start) {
-      this.scheduleOnce(this.runLight, 2.2);
+      this.runLight()
+      this.schedule(this.runLight, 0.6, cc.macro.REPEAT_FOREVER);
     } else {
       this.unschedule(this.runLight);
     }
@@ -83,16 +95,41 @@ export default class FootBar extends cc.Component {
 
   private runLight() {
     cc.tween(this.light)
-      .to(1, { opacity: 255 }, { easing: "smooth" })
+      .to(0.25, { opacity: 255 }, { easing: "" })
       .call(() => {
         cc.tween(this.light)
-          .to(1, { opacity: 0 }, { easing: "smooth" })
+          .to(0.25, { opacity: 0 }, { easing: "" })
           .start();
       })
       .start();
   }
 
-  private onClickConfirm(){
-    
+  private onClickConfirm() {
+    this.stopPopUp();
+    this.startLight(false);
+    Controller.instance.startTimer(true);
+  }
+
+  public popupGuide(on: boolean) {
+    this.popUp.active = on;
+  }
+
+  private runArrow(){
+    cc.tween(this.arrow)
+      .by(0.15, { position: cc.v3(0, 10, 0) })
+      .call(() => {
+        cc.tween(this.arrow)
+          .by(0.15, { position: cc.v3(0, -10, 0) })
+          .start();
+      })
+      .start();
+  }
+
+  private stopPopUp(){
+    if (this.popOn) {
+      this.popOn = false;
+      this.unschedule(this.runArrow);
+      this.popupGuide(false);
+    }
   }
 }

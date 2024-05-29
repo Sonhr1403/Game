@@ -8,6 +8,13 @@ import Noti from "./Script.Noti";
 
 const { ccclass, property } = cc._decorator;
 
+// export class STATE_OF_GAME {
+//   static BET_STAKE = 0;
+//   static RESULT = 1;
+//   static CHOOSING = 2;
+//   static END = 3;
+// }
+
 @ccclass
 export default class Controller extends cc.Component {
   public static instance: Controller = null;
@@ -33,6 +40,21 @@ export default class Controller extends cc.Component {
   @property(cc.Prefab)
   private prfGuide: cc.Prefab = null;
 
+  @property(cc.Button)
+  private listBtn: cc.Button[] = [];
+
+  @property(cc.SpriteFrame)
+  private cardsSF: cc.SpriteFrame[] = [];
+
+  @property(cc.Label)
+  private timerLbl: cc.Label = null;
+
+  @property(cc.Node)
+  private timer_frame: cc.Node = null;
+
+  @property(cc.Label)
+  private cardsNum: cc.Label = null;
+
   //////////////////////////////////
 
   private pnNoti: cc.Node = null;
@@ -45,45 +67,24 @@ export default class Controller extends cc.Component {
   public _isGameActive: boolean = true;
   private hideTime: number = null;
 
-  private localBetAmount: number = 50000;
-
-  public setLocalBetAmount(num: number) {
-    this.localBetAmount = num;
-  }
-
-  public getLocalBetAmount() {
-    return this.localBetAmount;
-  }
-
   public isMobile: boolean = false;
 
-  private isTurbo: boolean = false;
+  public phase: number = 0;
 
-  public setIsTurbo(bool: boolean) {
-    this.isTurbo = bool;
-  }
+  private skipLeft: number = 5;
 
-  public getIsTurbo() {
-    return this.isTurbo;
-  }
+  private result: number = -1;
 
-  private isAutoSpinning: boolean = false;
+  private timer: number = 180;
 
-  public getIAS() {
-    return this.isAutoSpinning;
-  }
+  private cardNum: number = 52;
 
-  public setIAS(bool: boolean) {
-    this.isAutoSpinning = bool;
-  }
-
-
-  public isForceStop: boolean = false;
+  ///////////////////////////////////////////////////
 
   onLoad() {
     cc.debug.setDisplayStats(false);
     Controller.instance = this;
-    this.initNoti();
+    // this.initNoti();
 
     this.isMobile = cc.sys.isMobile;
 
@@ -123,41 +124,23 @@ export default class Controller extends cc.Component {
       this
     );
 
-    Connector.instance.connect();
+    // Connector.instance.connect();
   }
 
   onDestroy() {
     Connector.instance.disconnect();
 
-    Connector.instance.removeCmdListener(
-      this,
-      Cmd.Cmd.CMD_LOGIN
-    );
+    Connector.instance.removeCmdListener(this, Cmd.Cmd.CMD_LOGIN);
 
-    Connector.instance.removeCmdListener(
-      this,
-      Cmd.Cmd.CMD_GAME_INFO
-    );
+    Connector.instance.removeCmdListener(this, Cmd.Cmd.CMD_GAME_INFO);
 
-    Connector.instance.removeCmdListener(
-      this,
-      Cmd.Cmd.CMD_ROUND_RESULT
-    );
+    Connector.instance.removeCmdListener(this, Cmd.Cmd.CMD_ROUND_RESULT);
 
-    Connector.instance.removeCmdListener(
-      this,
-      Cmd.Cmd.CMD_BET_FAILED
-    );
+    Connector.instance.removeCmdListener(this, Cmd.Cmd.CMD_BET_FAILED);
 
-    Connector.instance.removeCmdListener(
-      this,
-      Cmd.Cmd.CMD_FREE_GAME_RESULT
-    );
+    Connector.instance.removeCmdListener(this, Cmd.Cmd.CMD_FREE_GAME_RESULT);
 
-    Connector.instance.removeCmdListener(
-      this,
-      Cmd.Cmd.CMD_OPEN_MINIGAME
-    );
+    Connector.instance.removeCmdListener(this, Cmd.Cmd.CMD_OPEN_MINIGAME);
 
     cc.director.getScheduler().unscheduleUpdate(this);
   }
@@ -165,11 +148,12 @@ export default class Controller extends cc.Component {
   protected start(): void {
     this.initHeadBar();
     this.initFootBar();
-    this.initSetting();
+    // this.initSetting();
     // this.initPayTable();
     // this.initFreeGame();
     // this.initMusic();
-    this.initData();
+    this.initFake();
+    this.initNewGame();
 
     this._scheduler = window.setInterval(
       this.updateOffline.bind(this),
@@ -177,7 +161,6 @@ export default class Controller extends cc.Component {
     );
     cc.game.on(cc.game.EVENT_SHOW, this._onShowGame, this);
     cc.game.on(cc.game.EVENT_HIDE, this._onHideGame, this);
-
   }
 
   ////////////////////////////////////////////////////////////////////Init Start
@@ -222,31 +205,52 @@ export default class Controller extends cc.Component {
     this.pnNoti.active = false;
   }
 
-  private initData() {
+  private initFake() {
+    HeadBar.instance.setCurrentBalance(1000000);
     FootBar.instance.updateBet();
-    this.fakeData();
   }
 
-  public fakeData(isFG: boolean = false) {
-
+  private initNewGame() {
+    // this.phase = STATE_OF_GAME.BET_STAKE;
+    for (let i = 0; i < 6; i++) {
+      this.setInteractable(i, false);
+    }
+    this.cardNum = 52;
+    this.updateCardNum();
   }
 
+  public fakeData() {
+    this.result = Common.getRandomNumber(0, 51);
+  }
 
   /////////////////////////////////////////////////////////////////////////////Init End
 
   //////////////////////////////////////////////////////////////////////////Button Start
 
-  private onClickSkip(){}
+  private setInteractable(num: number, interactable: boolean) {
+    this.listBtn[num].interactable = interactable;
+    if (interactable) {
+      this.listBtn[num].node.children[0].children.forEach((child) => {
+        child.opacity = 255;
+      });
+    } else {
+      this.listBtn[num].node.children[0].children.forEach((child) => {
+        child.opacity = 140;
+      });
+    }
+  }
 
-  private onClickCashOut(){}
+  private onClickSkip() {}
 
-  private onClickRed(){}
+  private onClickCashOut() {}
 
-  private onClickBlack(){}
+  private onClickRed() {}
 
-  private onClickHigh(){}
-  
-  private onClickLow(){}
+  private onClickBlack() {}
+
+  private onClickHigh() {}
+
+  private onClickLow() {}
 
   /////////////////////////////////////////////////////////////////////////////Button End
 
@@ -279,7 +283,7 @@ export default class Controller extends cc.Component {
     let err = res.getError();
     switch (err) {
       case 0:
-        Cmd.Send.sendJoinGame(FootBar.instance.getTotalStake());
+        Cmd.Send.sendJoinGame(FootBar.instance.getStake());
         break;
 
       default:
@@ -296,10 +300,10 @@ export default class Controller extends cc.Component {
     this.showError(res);
     /////////////////////////
     HeadBar.instance.setCurrentBalance(res.currentMoney);
-    if (this.localBetAmount !== res.betAmount) {
-      this.localBetAmount = res.betAmount;
-      FootBar.instance.updateBet();
-    }
+    // if (this.localBetAmount !== res.betAmount) {
+    //   this.localBetAmount = res.betAmount;
+    //   FootBar.instance.updateBet();
+    // }
 
     if (res.isFreeGame) {
     }
@@ -413,8 +417,41 @@ export default class Controller extends cc.Component {
 
   ///////////////////////////////////////////////////////////// other function
 
+  public startTimer(start: boolean) {
+    if (start) {
+      this.schedule(this.minusTimer, 1, cc.macro.REPEAT_FOREVER, -1);
+    } else {
+      this.unschedule(this.minusTimer);
+    }
+  }
+
+  private minusTimer() {
+    this.timer -= 1;
+    this.showTimer();
+    if (this.timer === 30) {
+      this.timer_frame.active = true;
+    }
+    if (this.timer === 0) {
+      this.startTimer(false);
+    }
+  }
+
+  private showTimer() {
+    let a = Math.floor(this.timer / 60);
+    let b = this.timer % 60;
+    if (b.toString().length === 1) {
+      this.timerLbl.string = a + ":0" + b;
+    } else {
+      this.timerLbl.string = a + ":" + b;
+    }
+  }
+
+  private updateCardNum(){
+    this.cardsNum.string = this.cardNum.toString();
+  }
+
   public sendBet() {
-    Cmd.Send.sendBet(FootBar.instance.getTotalStake());
+    Cmd.Send.sendBet(FootBar.instance.getStake());
   }
 
   public sendFreeGame() {
@@ -451,7 +488,6 @@ export default class Controller extends cc.Component {
       }
     }
   }
-
 
   /////////////////// DMZ /////////////////////////
 

@@ -75,7 +75,7 @@ export default class HeadBar extends cc.Component {
   }
 
   public decreaseBalance() {
-    this.currentBalance -= FootBar.instance.getTotalStake();
+    this.currentBalance -= FootBar.instance.getStake();
     this.updateBalance();
   }
 
