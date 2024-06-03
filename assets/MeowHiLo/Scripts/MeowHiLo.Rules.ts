@@ -13,6 +13,9 @@ export default class Rules extends cc.Component {
     @property(cc.Node)
     private listContents: cc.Node[] = [];
 
+    @property(cc.ScrollView)
+    private scrollView: cc.ScrollView = null;
+
     /////////////////////////////////////////
 
     private currentRule: number = 0;
